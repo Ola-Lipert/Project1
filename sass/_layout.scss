@@ -272,20 +272,20 @@
     
   }
   
-  .container { 
-    width: 100%;
+  .container {
+    position: relative; 
+    max-width: 100%;
     height: auto; 
     background-color:  #fff;
-    margin: 85px 15px 15px 15px;
+    margin: 15px 15px 0px 15px;
     
   }
     .row {
-    display: flex;
-    display: -webkit-flex;
-    flex-wrap: wrap;
       .calendar {
-        display: inline-flex;
-        padding: 20px 300px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
         border-bottom: 1px solid #e3e3e3;
         .input-one input { 
           border: 0;
@@ -322,7 +322,7 @@
         border: 1px solid #e3e3e3;
         border-radius: 5px;
         padding: 10px 20px 10px 10px;
-      button { 
+      .fa-redo-alt { 
         height: 40px;
         width: 40px;
         background-color: #F58220;   
@@ -333,15 +333,12 @@
         &:hover {
           background-color: #ffa200;
         }
-          .fa-redo-alt { 
-          color: #333333;  
-          text-align: center; 
-          }
+      }
       
       }
     }
   
-  }
+  
   
   /* STATIC */
   
@@ -396,21 +393,24 @@
           font-weight: 700;
           margin-left: 50px;
         }
+      }
+      
       .chart {
-        display: flex; 
-        justify-content: flex-start; 
-        flex-wrap: wrap; 
+        display: flex;
+        justify-content: flex-start;  
         padding-top: 70px;
         margin: 0 auto;
         max-width: 700px;
-        .chart-img  {
+        img  {
+          max-width: 100%;
           margin-left: 50px;
         }
+    
       }
     }
   
   }
-  
+ 
   
   /* LINKS */
   
@@ -510,5 +510,4 @@
       background-color: #ffa200; 
       cursor: pointer;
     }
-}
-}
+  }
