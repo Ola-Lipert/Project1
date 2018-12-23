@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
   
-  }
+}
     
     
   html, body {
@@ -272,42 +272,54 @@
     
   }
   
+  .main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 188px;
+    padding-top: 61px;
+    height: 100%;
+    
   .container {
-    position: relative; 
-    max-width: 100%;
+    width: 100%;
     height: auto; 
     background-color:  #fff;
-    margin: 15px 15px 0px 15px;
-    
-  }
-    .row {
-      .calendar {
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-        width: 100%;
-        border-bottom: 1px solid #e3e3e3;
-        .input-one input { 
-          border: 0;
-          padding: 10px 10px 10px 10px; 
-          border-right: 1px solid #e3e3e3;
-        }
-        .input-second input { 
-          border: 0;
-          padding: 10px 10px 10px 10px;
-        }
-        .fa-calendar-alt { 
-          display: inline-flex;
-          color: #333333; 
-          padding: 10px;
-          &:hover { 
-            color: #F58220; 
-            cursor: pointer;
+    margin: 15px;
+      .row{
+        .calendar {
+          display: flex;
+          justify-content: center;
+          padding: 20px;
+          border-bottom: 1px solid #e3e3e3;
+          .input-one{ 
+            input { 
+              border: 0;
+              padding: 10px 10px 10px 10px; 
+              border-right: 1px solid #e3e3e3;
+            }
           }
         }
-      }
-      .general-head {
-        line-height: 47px;
+        .calendar { 
+          .input-second {
+             input { 
+              border: 0;
+              padding: 10px 10px 10px 10px;
+            }
+          }
+        }
+        .calendar {
+          .fa-calendar-alt { 
+            display: inline-flex;
+            color: #333333; 
+            padding: 10px;
+            &:hover {
+              color: #F58220; 
+              cursor: pointer;
+            }
+          }
+        }
+        .general-head {
+          line-height: 47px;
           h3 {
             color: #979797;
             border-bottom: 1px solid #e3e3e3;
@@ -315,28 +327,31 @@
             text-transform: uppercase;
             padding: 17px;
           }
-      }
-      .inputs { 
-        display: inline-flex;
-        display: -webkit-inline-flex;
-        border: 1px solid #e3e3e3;
-        border-radius: 5px;
-        padding: 10px 20px 10px 10px;
-      .fa-redo-alt { 
-        height: 40px;
-        width: 40px;
-        background-color: #F58220;   
-        border: none; 
-        cursor: pointer;
-        border-radius: 5px; 
-        margin: 10px;
-        &:hover {
+        .inputs { 
+          display: inline-flex;
+          border: 1px solid #e3e3e3;
+          border-radius: 5px;
+          padding: 10px 20px 10px 10px;
+        }
+        button { 
+          height: 40px;
+          width: 40px;
+          background-color: #F58220;   
+          border: none; 
+          cursor: pointer;
+          border-radius: 5px; 
+          margin: 10px;
+          &:hover {
           background-color: #ffa200;
+          }
+          .fa-redo-alt { 
+            color: #333333;  
+            text-align: center;
+          }
         }
       }
-      
-      }
-    }
+    
+  }
   
   
   
@@ -511,3 +526,5 @@
       cursor: pointer;
     }
   }
+}
+}
