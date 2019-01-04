@@ -224,7 +224,7 @@ header ul li .quit:hover { color: #F58220; }
 
 .row .inputs { display: -ms-inline-flexbox; display: inline-flex; border: 1px solid #e3e3e3; border-radius: 5px; padding: 10px 20px 10px 10px; max-width: 700px; }
 
-.row .calendar { display: -ms-inline-flexbox; display: inline-flex; -ms-flex-pack: center; justify-content: center; margin-left: 40px; padding: 20px 300px; border-bottom: 1px solid #e3e3e3; }
+.row .calendar { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; margin-left: 40px; padding: 20px; border-bottom: 1px solid #e3e3e3; }
 
 .row .calendar .input-one input { border: 0; padding: 10px 10px 10px 10px; border-right: 1px solid #e3e3e3; }
 
@@ -316,4 +316,39 @@ header ul li .quit:hover { color: #F58220; }
   .col-s-9 { width: 75%; }
   .col-s-10 { width: 83.33%; }
   .col-s-11 { width: 91.66%; }
-  .col-s-12 { width: 100%; } }
+  .col-s-12 { width: 100%; }
+  header { display: none; }
+  .sidebar { display: none; }
+  .main-container { width: 100%; margin: 0 auto; padding: 0; height: auto; }
+  .container { max-width: 100%; height: auto; background-color: #fff; margin: 5px; padding: 0; }
+  .row .general-head { line-height: 35px; }
+  .row .general-head h3 { color: #979797; border-bottom: 1px solid #e3e3e3; font-size: 16px; text-transform: uppercase; padding: 0; text-align: center; }
+  .row .calendar { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 5px; padding: 0; border-bottom: 1px solid #e3e3e3; }
+  .row .calendar .input-one input { border: 0; padding: 0; border-right: 1px solid #e3e3e3; }
+  .row .calendar .input-second input { border: 0; padding: 0; }
+  .row .calendar .fa-calendar-alt { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; color: #333333; padding: 0; }
+  .row .calendar .fa-calendar-alt:hover { color: #F58220; cursor: pointer; }
+  .row .calendar button { display: -ms-flexbox; display: flex; height: 30px; width: 30px; background-color: #F58220; border: none; cursor: pointer; border-radius: 5px; margin: 5px; }
+  .row .calendar button:hover { background-color: #ffa200; }
+  .row .calendar button .fa-redo-alt { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; color: #333333; padding-left: 6px; }
+  .row .chart-head { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: nowrap; flex-wrap: nowrap; padding-top: 70px; margin: 0 auto; max-width: 700px; }
+  .row .chart-head h2 { color: #a6a6a6; font-size: 16px; font-weight: 700; margin: 0; }
+  .row .chart { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding-top: 70px; margin: 0 auto; max-width: 700px; }
+  .row .chart img { max-width: 100%; height: auto; width: auto; margin: 0; }
+  .container_2 { width: 100%; height: auto; background-color: #fff; margin: 5px; }
+  .container_2 .links { position: relative; display: block; }
+  .container_2 .links .btn { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding: 25px; }
+  .container_2 .links .links-table { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: nowrap; flex-wrap: nowrap; margin: 0 auto; }
+  .container_2 .links-head { line-height: 30px; }
+  .container_2 .links-head h3 { color: #979797; border-bottom: 1px solid #e3e3e3; font-size: 16px; text-transform: uppercase; text-align: center; padding: 17px; }
+  .container_2 .row { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; border-top: 1px solid #e3e3e3; margin: 0; padding: 5px; height: auto; width: 100%; }
+  .container_2 .row:hover { background-color: #e3e3e3; }
+  .container_2 .row a { text-decoration: none; color: #56819F; }
+  .container_2 .row a:hover { color: #F58220; }
+  .container_2 .row .title-links { display: -ms-flexbox; display: flex; -ms-flex-pack: left; justify-content: left; width: 100%; height: auto; color: #808080; font-weight: 400; font-size: 14px; padding-right: 10px; }
+  .container_2 .row .link { display: -ms-flexbox; display: flex; -ms-flex-pack: left; justify-content: left; width: 100%; height: auto; font-size: 12px; color: #56819F; }
+  .container_2 .row .link .icons { width: 100%; color: #333333; }
+  .container_2 .row .link .icons:hover { color: #F58220; }
+  .container_2 .row .link .icons .fa-link { padding: 5px; }
+  .container_2 button[type='submit'] { text-align: center; font-size: 16px; color: #F5F5F2; background-color: #F58220; border: none; height: 20px; width: 90px; border-radius: 5px; padding: 0; }
+  .container_2 button[type='submit']:hover { background-color: #ffa200; cursor: pointer; } }
