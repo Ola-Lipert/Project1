@@ -573,6 +573,7 @@ header {
    display: none;
         
   }
+
   .main-container {
     width: 100%;
     margin: 0 auto;
@@ -582,9 +583,6 @@ header {
   }
 
   .container {
-    max-width: 100%;
-    height: auto; 
-    background-color:  #fff;
     margin: 5px;
     padding: 0;
     
@@ -595,22 +593,16 @@ header {
         line-height: 35px;
 
         h3 {
-          color: #979797;
-          border-bottom: 1px solid #e3e3e3;
           font-size: 16px;
-          text-transform: uppercase;
           padding: 0;
           text-align: center;
 
         }
       }
       .calendar {
-        display: flex;
-        justify-content: center;
         flex-wrap: wrap;
         margin: 5px;
         padding: 0;
-        border-bottom: 1px solid #e3e3e3;
     
 
         .input-one input { 
@@ -620,16 +612,14 @@ header {
           
 
         }
-        .input-second input { 
+        .input-second input {
           border: 0;
           padding: 0;
-          
 
         }
         .fa-calendar-alt { 
           display: flex;
           align-items: center;
-          color: #333333; 
           padding: 0;
 
           &:hover {
@@ -642,9 +632,6 @@ header {
         display: flex;
         height: 30px;
         width: 30px;
-        background-color: #F58220;   
-        border: none; 
-        cursor: pointer;
         border-radius: 5px; 
         margin: 5px;
 
@@ -665,29 +652,21 @@ header {
       display: flex; 
       justify-content: center; 
       flex-wrap: nowrap; 
-      padding-top: 70px;
+      padding-top: 40px;
       margin: 0 auto;
-      max-width: 700px;
+      width: 100%;
 
-      h2 { 
-        color: #a6a6a6; 
-        font-size: 16px; 
-        font-weight: 700;
-        margin: 0;
-
-      }
     }
     .chart {
       display: flex;
       justify-content: center;  
-      padding-top: 70px;
+      padding-top: 10px;
       margin: 0 auto;
-      max-width: 700px;
+      width: 100%;
 
       img  {
-        max-width: 100%;
-        height: auto;
-        width: auto;
+        height: 100%;
+        width: 100%;
         margin: 0;
 
       }
@@ -723,10 +702,7 @@ header {
       line-height: 30px;
 
       h3 {
-        color: #979797;
-        border-bottom: 1px solid #e3e3e3;
         font-size: 16px;
-        text-transform: uppercase;
         text-align: center;
         padding: 17px;
 
@@ -735,7 +711,6 @@ header {
     .row {
       display: flex;
       align-items: center;
-      border-top: 1px solid #e3e3e3;
       margin: 0;
       padding: 5px;
       height: auto;
@@ -745,15 +720,7 @@ header {
         background-color: #e3e3e3;
 
       }
-      a {
-        text-decoration: none;
-        color: #56819F;
-
-        &:hover {
-          color: #F58220;
-
-        }
-      }
+    
       .title-links {
         display: flex;
         justify-content: left;
@@ -790,11 +757,7 @@ header {
     }
   
     button[type='submit'] {
-      text-align: center;
       font-size: 16px;
-      color: #F5F5F2;
-      background-color: #F58220;
-      border: none;
       height: 20px;
       width: 90px;
       border-radius: 5px;
