@@ -165,7 +165,7 @@ header ul li .name:hover { color: #adb3bc; }
 
 .contact h3 { font-size: 18px; padding-left: 18px; text-transform: uppercase; }
 
-.contact .manager { display: -ms-flexbox; display: flex; display: -webkit-flex; position: relative; padding-left: 18px; }
+.contact .manager { display: -ms-flexbox; display: flex; position: relative; padding-left: 18px; }
 
 .contact .manager .online { position: absolute; height: 11px; width: 11px; background: #04ae00; border-radius: 100%; margin-top: 15px; }
 
@@ -210,9 +210,9 @@ header ul li .name:hover { color: #adb3bc; }
 
 .row .calendar { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; margin-left: 40px; padding: 20px; border-bottom: 1px solid #e3e3e3; }
 
-.row .calendar .input-one input { border: 0; padding: 10px 10px 10px 10px; border-right: 1px solid #e3e3e3; }
+.row .calendar .input-one input { border: 0; padding: 10px; border-right: 1px solid #e3e3e3; }
 
-.row .calendar .input-second input { border: 0; padding: 10px 10px 10px 10px; }
+.row .calendar .input-second input { border: 0; padding: 10px; }
 
 .row .calendar .fa-calendar-alt { display: -ms-inline-flexbox; display: inline-flex; color: #333333; padding: 10px; }
 
@@ -246,7 +246,7 @@ header ul li .name:hover { color: #adb3bc; }
 
 .container_2 .links .btn { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding: 25px; }
 
-.container_2 .links .links-table { height: auto; width: 100%; max-width: 100%; display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 0 auto; }
+.container_2 .links .links-table { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; height: auto; width: 100%; max-width: 100%; margin: 0 auto; }
 
 .container_2 .links-head { line-height: 47px; }
 
@@ -307,12 +307,13 @@ header ul li .name:hover { color: #adb3bc; }
   .container { margin: 5px; padding: 0; }
   .row .general-head { line-height: 35px; }
   .row .general-head h3 { font-size: 16px; padding: 0; text-align: center; }
-  .row .calendar { -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 5px; padding: 0; }
-  .row .calendar .input-one input { padding: 0; }
-  .row .calendar .input-second input { padding: 0; }
+  .row .calendar { -ms-flex-wrap: wrap; flex-wrap: wrap; margin: 5px; padding: 5px; }
+  .row .calendar input { padding: 0; font-size: 14px; }
   .row .calendar .fa-calendar-alt { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; padding: 0; }
   .row .calendar button { display: -ms-flexbox; display: flex; height: 30px; width: 30px; margin: 5px; }
   .row .calendar button .fa-redo-alt { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding-left: 6px; }
+  .row .statistic .stats .name { font-size: 14px; font-weight: 400; }
+  .row .statistic .stats .number { font-size: 14px; }
   .row .chart-head { -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: nowrap; flex-wrap: nowrap; padding-top: 40px; width: 100%; }
   .row .chart { -ms-flex-pack: center; justify-content: center; padding-top: 10px; width: 100%; }
   .row .chart img { height: 100%; width: 100%; margin: 0; }

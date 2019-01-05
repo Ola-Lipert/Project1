@@ -183,7 +183,6 @@ header {
     }
     .manager {
       display: flex;
-      display: -webkit-flex;
       position: relative;
       padding-left: 18px;
   
@@ -268,17 +267,16 @@ header {
         margin-left: 40px;
         padding: 20px;
         border-bottom: 1px solid #e3e3e3;
-    
-
+        
         .input-one input { 
           border: 0;
-          padding: 10px 10px 10px 10px; 
+          padding: 10px; 
           border-right: 1px solid #e3e3e3;
 
         }
         .input-second input { 
           border: 0;
-          padding: 10px 10px 10px 10px;
+          padding: 10px;
 
         }
         .fa-calendar-alt { 
@@ -397,12 +395,12 @@ header {
 
       }
       .links-table {
-        height: auto;
-        width: 100%;
-        max-width: 100%;
         display: flex; 
         justify-content: center; 
         flex-wrap: wrap; 
+        height: auto;
+        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
 
       }
@@ -568,14 +566,11 @@ header {
       .calendar {
         flex-wrap: wrap;
         margin: 5px;
-        padding: 0;
+        padding: 5px;
     
-        .input-one input { 
-          padding: 0; 
-        
-        }
-        .input-second input {
+        input { 
           padding: 0;
+          font-size: 14px; 
         
         }
         .fa-calendar-alt { 
@@ -594,6 +589,19 @@ header {
           display: flex;
           justify-content: center; 
           padding-left: 6px;
+
+        }
+      }
+    }
+    .statistic {                                 
+      .stats {
+        .name { 
+          font-size: 14px; 
+          font-weight: 400;
+
+        }
+        .number { 
+          font-size: 14px;
 
         }
       }
@@ -643,6 +651,7 @@ header {
       padding: 5px;
       height: auto;
       width: 100%;
+
       .title-links {
         width: 100%;
         height: auto;
