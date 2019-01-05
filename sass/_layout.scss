@@ -32,24 +32,24 @@ header {
   padding: 0;
   border-bottom: $border;
   
-    ul {
+  ul {
       display: flex; 
       justify-content: flex-end; 
       list-style-type: none;
-  
-        li {
+      
+      li {
           display: flex; 
           height: 61px; 
           border-left: $border;
-  
-            a { 
+          
+          a { 
               display: inline-flex;
               align-items: center;
               width: 100%; 
               text-decoration: none;
   
-            }
-            .wallet { 
+          }
+            .icons-header { 
               padding: 30px; 
               color: $header-color;
               &:hover { 
@@ -63,30 +63,6 @@ header {
               font-weight: 700;
   
             }
-            .arrow { 
-              padding: 30px; 
-              color: $header-color;
-              &:hover {
-                color: $orange-color;
-  
-              }
-            }
-            .notification {  
-              padding: 30px; 
-              color: $header-color;
-              &:hover {
-                color: $orange-color;
-  
-              }
-            }
-            .login {  
-              padding: 30px;  
-              color: $header-color;
-              &:hover {
-                color: $orange-color;
-  
-              }
-            }
             .name { 
               padding: 30px 30px 30px 0; 
               color: #56819F; 
@@ -97,20 +73,10 @@ header {
   
               }
             }
-            .quit { 
-              color: $header-color; 
-              padding: 30px;
-              &:hover {
-                color: $orange-color;
-  
-              }
-            }
-            
-        }
+        }    
+     }        
+}        
         
-    }
-}
-          
 /* SIDEBAR */
     
 .sidebar {
@@ -126,23 +92,22 @@ header {
 }
     
 .title {
+  display: flex;
   line-height: 61px;
   color: $body-color;
   background: $black-color;
   padding-left: 18px;
-  display: flex;
-  
-    .logo {
+  .logo {
       font-size: 24px;
       color: $body-color;
       text-decoration: none;
       font-family: 'Caveat Brush', cursive;
   
-    }
-    .toggler-sidebar {
-      padding: 20px 20px 10px 45px;
+  }
+  .toggler-sidebar {
+    padding: 20px 20px 10px 45px;
   
-    }
+  }
 }
     
 .hamburger-menu {
@@ -586,6 +551,7 @@ header {
     margin: 5px;
     padding: 0;
     
+    
   }
     .row {
 
@@ -604,64 +570,44 @@ header {
         margin: 5px;
         padding: 0;
     
-
         .input-one input { 
-          border: 0;
           padding: 0; 
-          border-right: 1px solid #e3e3e3;
-          
-
+        
         }
         .input-second input {
-          border: 0;
           padding: 0;
-
+        
         }
         .fa-calendar-alt { 
           display: flex;
           align-items: center;
           padding: 0;
 
-          &:hover {
-            color: #F58220; 
-            cursor: pointer;
-
-          }
         }
       button { 
         display: flex;
         height: 30px;
-        width: 30px;
-        border-radius: 5px; 
+        width: 30px; 
         margin: 5px;
-
-        &:hover {
-          background-color: #ffa200;
-
-        }
+        
         .fa-redo-alt { 
           display: flex;
-          justify-content: center;
-          color: #333333;  
+          justify-content: center; 
           padding-left: 6px;
 
         }
       }
     }
     .chart-head {
-      display: flex; 
       justify-content: center; 
       flex-wrap: nowrap; 
       padding-top: 40px;
-      margin: 0 auto;
       width: 100%;
 
     }
     .chart {
-      display: flex;
       justify-content: center;  
       padding-top: 10px;
-      margin: 0 auto;
       width: 100%;
 
       img  {
@@ -674,27 +620,11 @@ header {
   }
   
   .container_2 {
-    width: 100%;
-    height: auto; 
-    background-color:  #fff;
     margin: 5px;
 
     .links {
-      position: relative;
-      display: block;
-    
-
-      .btn {
-        display: flex;
-        justify-content: center;
-        padding: 25px;
-
-      }
       .links-table {
-        display: flex; 
-        justify-content: center; 
-        flex-wrap: nowrap; 
-        margin: 0 auto;
+        flex-wrap: nowrap;
 
       }
     }
@@ -704,50 +634,31 @@ header {
       h3 {
         font-size: 16px;
         text-align: center;
-        padding: 17px;
 
       }
     }
     .row {
-      display: flex;
       align-items: center;
       margin: 0;
       padding: 5px;
       height: auto;
       width: 100%;
-
-      &:hover {
-        background-color: #e3e3e3;
-
-      }
-    
       .title-links {
-        display: flex;
-        justify-content: left;
         width: 100%;
         height: auto;
-        color: #808080;
         font-weight: 400;
         font-size: 14px;
         padding-right: 10px;
 
       }
       .link {
-        display: flex;
-        justify-content: left;
         width: 100%;
         height: auto;
         font-size: 12px;
-        color: #56819F;
 
         .icons {
           width: 100%;
-          color: #333333;
 
-          &:hover {
-            color: #F58220;
-
-          }
           .fa-link {
             padding: 5px;
 
@@ -762,16 +673,8 @@ header {
       width: 90px;
       border-radius: 5px;
       padding: 0;
-      
-      &:hover {
-        background-color: #ffa200; 
-        cursor: pointer;
-
-      }
   
     }
-  
-}
-
+  }
 }
   
