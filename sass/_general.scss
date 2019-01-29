@@ -1,7 +1,7 @@
   .container {
     width: 100%;
     height: auto; 
-    background-color:  #fff;
+    background-color:  $white-color;
     margin: 15px;
     
   }
@@ -11,8 +11,8 @@
         line-height: 47px;
 
         h3 {
-          color: #979797;
-          border-bottom: 1px solid #e3e3e3;
+          color: $brand-main-color;
+          border-bottom: $border;
           font-size: 20px;
           text-transform: uppercase;
           padding: 17px;
@@ -21,23 +21,23 @@
       }
       .inputs {
         display: inline-flex;
-        border: 1px solid #e3e3e3;
+        border: $border;
         border-radius: 5px;
         padding: 10px 20px 10px 10px;
-        max-width: 700px;
+        max-width: $max-width-general;
 
       }
       .calendar {
         display: flex;
         justify-content: center;
-        margin-left: 40px;
+        margin-left: $margin-left-general;
         padding: 20px;
-        border-bottom: 1px solid #e3e3e3;
+        border-bottom: $border;
         
         .input-one input { 
           border: 0;
           padding: 10px; 
-          border-right: 1px solid #e3e3e3;
+          border-right: $border;
 
         }
         .input-second input { 
@@ -47,11 +47,11 @@
         }
         .fa-calendar-alt { 
           display: inline-flex;
-          color: #333333; 
+          color: $black-color; 
           padding: 10px;
 
           &:hover {
-            color: #F58220; 
+            color: $orange-hover-color; 
             cursor: pointer;
 
           }
@@ -59,18 +59,18 @@
       button { 
         height: 40px;
         width: 40px;
-        background-color: #F58220;   
+        background-color: $orange-color;   
         border: none; 
         cursor: pointer;
         border-radius: 5px; 
         margin: 10px;
 
         &:hover {
-          background-color: #ffa200;
+          background-color: $orange-hover-color;
 
         }
         .fa-redo-alt { 
-          color: #333333;  
+          color: $black-color;  
           text-align: center;
 
         }
@@ -81,7 +81,7 @@
       justify-content: center; 
       flex-wrap: wrap; 
       padding-top: 30px; 
-      max-width: 700px;
+      max-width: $max-width-general;
       margin: 0 auto;
 
       .stats {
@@ -89,20 +89,20 @@
         justify-content: space-between; 
         width: 300px; 
         height: 40px;
-        border-bottom: 1px solid #e3e3e3; 
-        margin-left: 40px;
+        border-bottom: $border; 
+        margin-left: $margin-left-general;
 
         .name { 
-          color: #a6a6a6; 
-          font-size: 16px; 
-          font-weight: 700; 
+          color: $brand-main-color; 
+          font-size: $font-size-general; 
+          font-weight: $font-weight-general; 
           margin-top: 10px;
 
         }
         .number { 
-          color: black; 
+          color: $black-color; 
           font-weight: 100; 
-          font-size: 15px; 
+          font-size: $font-size-general; 
           margin-right: 30px; 
           margin-top: 10px;
 
@@ -117,12 +117,12 @@
           flex-wrap: wrap; 
           padding-top: 70px;
           margin: 0 auto;
-          max-width: 700px;
+          max-width: $max-width-general;
 
           h2 { 
-            color: #a6a6a6; 
-            font-size: 16px; 
-            font-weight: 700;
+            color: $brand-main-color; 
+            font-size: $font-size-general; 
+            font-weight: $font-weight-general;
             margin-left: 50px;
 
           }
@@ -132,7 +132,7 @@
           justify-content: flex-start;  
           padding-top: 70px;
           margin: 0 auto;
-          max-width: 700px;
+          max-width: $max-width-general;
 
           img  {
             max-width: 100%;

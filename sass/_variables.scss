@@ -18,12 +18,31 @@ $border: 1px solid #e3e3e3;
 
 $brand-main-color: #979797;
 
+$blue-color: #56819F;
+
 /*FONT SIZES*/
 
-$section-header: 20px;
 $sidebar-font-size: 16px;
+$font-size-nav: 20px;
+$font-size-general: 16px;
+$font-weight-general: 700;
 
 /*FONTS*/
 
 $brand-font:'Roboto', sans-serif;
 $paragraph-font:'Roboto', sans-serif;
+$logo-font: 'Caveat Brush', cursive;
+
+/*SECTION NAVIGATION*/
+
+$height-nav: 61px;
+
+/*SECTION SIDEBAR*/
+
+$padding-left-sidebar: 18px;
+$margin-top-sidebar: 15px;
+
+/*SECTION GENERAL*/
+
+$max-width-general: 700px;
+$margin-left-general: 40px;

@@ -6,7 +6,7 @@ header {
     background-color: $white-color; 
     top: 0; 
     bottom: 0; 
-    height: 61px; 
+    height: $height-nav; 
     width: 100%; 
     padding: 0;
     border-bottom: $border;
@@ -18,7 +18,7 @@ header {
         
         li {
             display: flex; 
-            height: 61px; 
+            height: $height-nav; 
             border-left: $border;
             
             a { 
@@ -38,13 +38,13 @@ header {
               }
               .sum h2 { 
                 color: $header-color; 
-                font-size: 20px; 
+                font-size: $font-size-nav; 
                 font-weight: 700;
     
               }
               .name { 
                 padding: 30px 30px 30px 0; 
-                color: #56819F; 
+                color: $blue-color; 
                 font-size: 15px; 
                 font-weight: 400; 
                 &:hover {

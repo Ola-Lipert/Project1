@@ -12,15 +12,15 @@
       
   .title {
     display: flex;
-    line-height: 61px;
+    line-height: $height-nav;
     color: $body-color;
     background: $black-color;
-    padding-left: 18px;
+    padding-left: $padding-left-sidebar;
     .logo {
         font-size: 24px;
         color: $body-color;
         text-decoration: none;
-        font-family: 'Caveat Brush', cursive;
+        font-family: $logo-font;
     
     }
     .toggler-sidebar {
@@ -72,7 +72,7 @@
     position: relative;
     display: block;
     padding: 15px 15px 15px 18px;
-    font-size: 16px;
+    font-size: $sidebar-font-size;
     background: $black-color;
     color: $light-grey-color;
     &:hover {
@@ -95,33 +95,35 @@
     border-top: 1px solid #222;
     
       h3 {
-        font-size: 18px;
-        padding-left: 18px;
+        font-size: $sidebar-font-size;
+        padding-left: $padding-left-sidebar;
         text-transform: uppercase;
     
       }
       .manager {
         display: flex;
         position: relative;
-        padding-left: 18px;
+        padding-left: $padding-left-sidebar;
     
           .online {
             position: absolute;
             height: 11px;
             width: 11px;
             background: #04ae00;
+            margin-top: $margin-top-sidebar;
             border-radius: 100%;
-            margin-top: 15px;
-    
+            
           }
-          .manager-photo img {
-            margin-top: 15px;
-            border-radius: 100%;
+          .manager-photo {
+              .photo-person {
+                margin-top: $margin-top-sidebar;
+                border-radius: 100%;
+              }
     
           }
       }
       .manager-name {
-        font-size: 14px;
+        font-size: $sidebar-font-size;
     
       }
   }
