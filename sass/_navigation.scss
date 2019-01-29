@@ -1,0 +1,57 @@
+header { 
+    position: fixed; 
+    display: flex; 
+    justify-content: flex-end;
+    z-index: 1; 
+    background-color: $white-color; 
+    top: 0; 
+    bottom: 0; 
+    height: 61px; 
+    width: 100%; 
+    padding: 0;
+    border-bottom: $border;
+    
+    ul {
+        display: flex; 
+        justify-content: flex-end; 
+        list-style-type: none;
+        
+        li {
+            display: flex; 
+            height: 61px; 
+            border-left: $border;
+            
+            a { 
+                display: inline-flex;
+                align-items: center;
+                width: 100%; 
+                text-decoration: none;
+    
+            }
+              .icons-header { 
+                padding: 30px; 
+                color: $header-color;
+                &:hover { 
+                  color: $orange-color;
+    
+                }
+              }
+              .sum h2 { 
+                color: $header-color; 
+                font-size: 20px; 
+                font-weight: 700;
+    
+              }
+              .name { 
+                padding: 30px 30px 30px 0; 
+                color: #56819F; 
+                font-size: 15px; 
+                font-weight: 400; 
+                &:hover {
+                  color: #adb3bc;
+    
+                }
+              }
+          }    
+       }        
+  }        
